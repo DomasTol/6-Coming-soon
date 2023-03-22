@@ -4,6 +4,11 @@
 .hero {
     height: 100vh;
     background-image: url(../../img/background.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
 
 }
 .hero > .short-row {
@@ -19,7 +24,7 @@
 }
 
 .hero .tittle {
-    font-size: 70px;
+    font-size: 80px;
 }
 .hero .description {
     font-size: 20px;
