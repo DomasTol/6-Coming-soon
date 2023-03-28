@@ -73,3 +73,6 @@
     }
 
 }
+.footer .trio p + p::before {
+    display: none;
+}

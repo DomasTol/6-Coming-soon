@@ -4,40 +4,47 @@
     height: 16em;
     border: 0.5em solid #fff;
     position: relative;
+    background-color: red;
 }
 
 .mouse::after {
     content: '';
+    background-color: blue;
     display: block;
     width: 1.3em;
     height: 2em;
     background-color: #fff;
     position: absolute;
-    top: 0em;
-    left: 5%;
-    transform: translateX(-50%);
+    top: 0;
+    left: 0;
     animation-name: scrolling;
     animation-duration: 3s;
-    animation-iteration-count: infinite;
+    animation-iteration-count:infinite;
 }
 
 
 
 @keyframes scrolling {
     0% {
-        top: 0em;
-        background-color: #ffff;
-    }
-    10% {
-        background-color: #ffff;
-        top: 13em;
-    }
-    20% {
+        top: 0;
+        left: 0;
         
+    }
+    25% {
+        top: 0em;
+        left: 8em;
+    }
+    50% {
+        top: 13em;
+        left: 8em;
+    }
+    75% {
+        top: 13em;
+        left: 0; 
     }
     100% {
-        
-      
+        top:0;
+        left:0;
     }
 }
 @keyframes moving{
