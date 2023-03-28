@@ -3,8 +3,8 @@
 @import '../components/footer.css';
 @import '../3rd-party/font-awesome.min.css';
 @import '../components/clock.css';
-/*@import '../components/mouse.css';*/
-@import '../components/mouseanmation.css';
+@import '../components/mouse.css';
+/*@import '../components/mouseanmation.css';*/
 @import '../components/progress-bar.css';
 @import '../components/button.css';
 
