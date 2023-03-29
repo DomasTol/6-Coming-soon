@@ -7,6 +7,7 @@
 /*@import '../components/mouseanmation.css';*/
 @import '../components/progress-bar.css';
 @import '../components/button.css';
+@import '../components/form.css';
 
 .hero {
     height: 100vh;
@@ -56,8 +57,23 @@
     text-decoration: underline;
 }
 
+.main-content .form .btn {
+    margin-left: auto;
+}
+
 @media (max-width: 600px) {
     .hero .tittle {
         font-size: 64px;
     }
+}
+
+.hero > .short-row {
+    position: relative;
+}
+
+.red {
+    width: 60px;
+    height: 60px;
+    background-color: red;
+    position: absolute;
 }
